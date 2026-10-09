@@ -1,0 +1,14 @@
+name: Package and document checks
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python code/check_package.py
+      - run: python -O code/check_package.py
+      - run: sudo apt-get update -qq && sudo apt-get install -y texlive-latex-extra lmodern
+      - run: mkdir build && pdflatex -interaction=nonstopmode -halt-on-error -output-directory=build paper.tex && pdflatex -interaction=nonstopmode -halt-on-error -output-directory=build paper.tex

@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0-candidate",
+  "scope": "Every shipped payload except this manifest and SHA256SUMS.",
+  "files": [
+    {
+      "path": ".github/workflows/check.yml",
+      "size_bytes": 608,
+      "sha256": "40de1c032d1bc9dd378714a85d86567951268fa7f10521863213ca2a3253ad0d"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 54,
+      "sha256": "6a2912f13c16d922093c95c8633ef938b581b0c278fc4684b102011980525ab9"
+    },
+    {
+      "path": ".zenodo.json",
+      "size_bytes": 1168,
+      "sha256": "45e4b986a3ac1b02f11a15ba05b2e2b5258631ab2899bbccb1d2209773fbfed4"
+    },
+    {
+      "path": "AI_INDEX.md",
+      "size_bytes": 2174,
+      "sha256": "55bd07474da2b0e92c71fe5a0bfc7d9f8f37944ea4845f15c1e1abc174357296"
+    },
+    {
+      "path": "ASSURANCE.md",
+      "size_bytes": 1606,
+      "sha256": "0e7b419dd930a5d59c1861b4314defff62ecf3a2fed6dd6a1f8aff8a47e1aeb5"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 279,
+      "sha256": "b5ade73fc1d0d99f382104d4349eb8f871801b8bba210f2d290a293ca678031e"
+    },
+    {
+      "path": "CITATION_AUDIT.md",
+      "size_bytes": 1998,
+      "sha256": "404281439cabeaf7566e41f535c6f7ee435f60df2ddc32a254a0ae9777a55190"
+    },
+    {
+      "path": "ENVIRONMENT.txt",
+      "size_bytes": 247,
+      "sha256": "800bd732b961ba3eff7ad75eddf857b161e684852d5b76942dbc89fe01dfa4d0"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 179,
+      "sha256": "479e3df1c1a043c16ec8e6babc976de3d4ed67295c397d8e4c00a60f535816df"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "size_bytes": 1066,
+      "sha256": "19ebb192c1547572ad60daadb792f205524c9b3a1a789819918861bb6a688f05"
+    },
+    {
+      "path": "LICENSES.md",
+      "size_bytes": 806,
+      "sha256": "00137c7f99b94bd9c995fe1f4463e16fb890bf9aebe5d1df913e8a5dc5050a2c"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1773,
+      "sha256": "512b0161609059a161b05d6bb7d86de97f8ab908be14dff141a622ed52c2c74d"
+    },
+    {
+      "path": "RESEARCH_GATES.json",
+      "size_bytes": 7334,
+      "sha256": "99e6cd056ab4b076b8e4f972268381e41673b22b66c31225c9a0658394025eb7"
+    },
+    {
+      "path": "REVIEW_RESPONSE.md",
+      "size_bytes": 2873,
+      "sha256": "e6cd7ac69dbbcf4314dfa9af647720352cf518c09985b312cd00e3261519dcfc"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "size_bytes": 1082,
+      "sha256": "d1b7aefb78521801ce6631d9216f3263b9876d83c3befdeb5a5e32cd839e49c4"
+    },
+    {
+      "path": "bibliography.bib",
+      "size_bytes": 3327,
+      "sha256": "68685c18015a6ff4bc2fc7f458c541ecd58d9496828bd56960a90bfd4b5daac5"
+    },
+    {
+      "path": "checks/analytic-proof-audit-v1.md",
+      "size_bytes": 6262,
+      "sha256": "90452ab1d96d14298914472e2ae6c2e5092635e19f3d936e2229f0d2af1f7385"
+    },
+    {
+      "path": "claims.md",
+      "size_bytes": 4046,
+      "sha256": "6a68c5260c8aad862197245ca761c2fdfb7eaa811657da1ecda37187dd307d6a"
+    },
+    {
+      "path": "code/check_package.py",
+      "size_bytes": 2199,
+      "sha256": "1f235aeaeceffa02d14c5df6fecd61ac0075e0eeb2897f00f6ce81c71b133e3b"
+    },
+    {
+      "path": "paper.pdf",
+      "size_bytes": 407659,
+      "sha256": "fba603ff5ec4c2d5a50561f89f33628625e8f839ed9e3fe9b49040a50589587c"
+    },
+    {
+      "path": "paper.tex",
+      "size_bytes": 59421,
+      "sha256": "b5cbb06e47df240f9206a0bdcfdc3e6b1abe4474ab36445739e2897f0f24797e"
+    },
+    {
+      "path": "prior-art.md",
+      "size_bytes": 15152,
+      "sha256": "56831e3c23158af91e5cce389e4f899d020770a462ba2ca7fe40e57cc3257eb8"
+    },
+    {
+      "path": "publication/qa.json",
+      "size_bytes": 342,
+      "sha256": "8b4b8c233be2e3fb9d150afe2223e914cffa8029fdbfcedd17d0b8bba9d4774d"
+    }
+  ]
+}

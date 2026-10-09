@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please retain unrefereed candidate status when citing."
+title: "Small-charge rigidity for the quartic Hartree shape energy"
+authors:
+  - name: Anonymous
+version: 1.0.0-candidate
+date-released: 2026-10-09
+doi: 10.5281/zenodo.23269957
+license: CC0-1.0

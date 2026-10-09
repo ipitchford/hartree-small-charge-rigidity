@@ -1,0 +1,28 @@
+{
+  "title": "Small-charge rigidity for the quartic Hartree shape energy",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "version": "1.0.0-candidate",
+  "publication_date": "2026-10-09",
+  "license": "cc-zero",
+  "description": "<p>Unrefereed written-proof candidate. For sufficiently small positive charge, the ball uniquely minimises the three-dimensional quartic Hartree shape energy among all prescribed-volume competitors, modulo translations and the stated capacity or measure convention. Imports the published global existence and near-sphericity theorem; verifies the model-specific local flux argument and global transfer. No effective maximal charge, quantitative deficit, external peer review, formal verification or absolute priority is claimed.</p>",
+  "keywords": [
+    "Hartree energy",
+    "shape optimisation",
+    "ball rigidity",
+    "Coulomb interaction",
+    "free boundary"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/hartree-small-charge-rigidity",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

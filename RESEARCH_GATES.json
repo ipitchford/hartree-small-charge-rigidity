@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.0",
+  "version": "1.0.0-candidate",
+  "status": "unrefereed-candidate",
+  "claim": "paper.tex Theorem 1.1; unchanged from input v2",
+  "proof": "Written analytic proof; imported global theorem explicitly retained",
+  "priorArt": "CITATION_AUDIT.md and prior-art.md; bounded search, priority uncertain",
+  "review": "Supplied minor-revision report; actions in REVIEW_RESPONSE.md; independence not established",
+  "replay": "No essential computational proof to replay. code/check_package.py checks finite identities and bytes only.",
+  "formalVerification": false,
+  "externalPeerReview": false,
+  "independentReproduction": false,
+  "recordBoundary": "Publication-intake assessment on 9 October 2026, not a backdated discovery record. Bounded searches do not establish absolute priority.",
+  "contributionMap": [
+    {
+      "claim": "Uniform small-charge ball rigidity",
+      "unit": "statement",
+      "paperLocation": "Theorem 1.1",
+      "closestPriorWork": "MMR 2025 Theorem 1.2 supplies existence and all-minimiser nearsphericity; Remark 1.3 states the target. Ruffini September 2026 abstract mentions rigidity without a precise statement; priority remains uncertain.",
+      "verdict": "partially-known-cited",
+      "searches": [
+        {
+          "date": "2026-10-09",
+          "query": "Hartree small charge ball rigidity; Mazzoleni Muratov Ruffini; Cavallina nondegenerate critical domains; exact functional and method comparisons in CITATION_AUDIT.md"
+        }
+      ]
+    },
+    {
+      "claim": "Implicit-function local rigidity",
+      "unit": "method",
+      "paperLocation": "Sections 2–3",
+      "closestPriorWork": "Established nondegenerate-critical-domain machinery, including Cavallina 2024; novelty is not the abstract IFT principle.",
+      "verdict": "partially-known-cited",
+      "searches": [
+        {
+          "date": "2026-10-09",
+          "query": "Hartree small charge ball rigidity; Mazzoleni Muratov Ruffini; Cavallina nondegenerate critical domains; exact functional and method comparisons in CITATION_AUDIT.md"
+        }
+      ]
+    },
+    {
+      "claim": "Branch selection and full Hölder inverse",
+      "unit": "proof",
+      "paperLocation": "Lemmas 2.3 and 3.3",
+      "closestPriorWork": "Classical elliptic/Robin estimates are imported; the manuscript supplies the Hartree branch and global-to-local interface.",
+      "verdict": "partially-known-cited",
+      "searches": [
+        {
+          "date": "2026-10-09",
+          "query": "Hartree small charge ball rigidity; Mazzoleni Muratov Ruffini; Cavallina nondegenerate critical domains; exact functional and method comparisons in CITATION_AUDIT.md"
+        }
+      ]
+    }
+  ],
+  "sourcesReadInFull": [
+    {
+      "citation": "Mazzoleni, Muratov and Ruffini (2025)",
+      "date": "2026-10-09",
+      "readWhat": "Theorem 1.2, Remark 1.3 and functional normalization",
+      "evidenceLocator": "https://pagine.dm.unipi.it/muratov/hartree.pdf",
+      "usedFor": "Global existence and all-minimizer localization"
+    },
+    {
+      "citation": "Cavallina (2024)",
+      "date": "2026-10-09",
+      "readWhat": "Theorem I and its Banach-space differentiability/invertibility assumptions",
+      "evidenceLocator": "https://arxiv.org/pdf/2109.12559",
+      "usedFor": "Established local critical-domain machinery"
+    },
+    {
+      "citation": "Mazzoleni, Muratov and Ruffini (2026)",
+      "date": "2026-10-09",
+      "readWhat": "Theorem 1.1 and same quartic functional",
+      "evidenceLocator": "https://arxiv.org/pdf/2606.16503",
+      "usedFor": "Large-charge nonexistence is distinct from this small-charge theorem"
+    }
+  ],
+  "limitationTriage": [
+    {
+      "limitation": "Full Hölder inverse citation",
+      "closingQuestion": "Can a known result or cheap check close this boundary?",
+      "triedOrSearched": "Checked Robin obliqueness and coefficients, Schauder estimates and higher regularity; explicit GT theorem references added.",
+      "estimatedCost": "Local proof and citation clarification",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Newtonian versus H1 zero-capacity sets",
+      "closingQuestion": "Can a known result or cheap check close this boundary?",
+      "triedOrSearched": "Added cutoff/Sobolev and exhaustion argument; both equality inclusions retained.",
+      "estimatedCost": "Local proof and citation clarification",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Duplicate branch-selection argument",
+      "closingQuestion": "Can a known result or cheap check close this boundary?",
+      "triedOrSearched": "Reused Lemmas 2.3–2.4 and stated fixed-topology entrance explicitly.",
+      "estimatedCost": "Local proof and citation clarification",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Numerical maximal small-charge threshold",
+      "closingQuestion": "Can a known result or cheap check close this boundary?",
+      "triedOrSearched": "Existence proof is non-effective; a computable optimal threshold requires new quantitative analysis.",
+      "estimatedCost": "New research or external evidence; unknown duration",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Outside the established theorem and explicitly qualified."
+    },
+    {
+      "limitation": "Quantitative deficit or post-threshold classification",
+      "closingQuestion": "Can a known result or cheap check close this boundary?",
+      "triedOrSearched": "Neither is implied by local uniqueness; no new result asserted.",
+      "estimatedCost": "New research or external evidence; unknown duration",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Outside the established theorem and explicitly qualified."
+    },
+    {
+      "limitation": "Quadratic rather than quartic Coulomb interaction",
+      "closingQuestion": "Can a known result or cheap check close this boundary?",
+      "triedOrSearched": "Different scaling and state equation; explicitly excluded.",
+      "estimatedCost": "New research or external evidence; unknown duration",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Outside the established theorem and explicitly qualified."
+    },
+    {
+      "limitation": "Priority and independent assurance",
+      "closingQuestion": "Can a known result or cheap check close this boundary?",
+      "triedOrSearched": "Conference abstract overlap has no precise theorem available; no unaffiliated reproduction or formal verification established.",
+      "estimatedCost": "New research or external evidence; unknown duration",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Outside the established theorem and explicitly qualified."
+    }
+  ],
+  "extensionScout": {
+    "by": "Codex publication assessment",
+    "date": "2026-10-09",
+    "proposals": [
+      "Clarify all-mode inverse",
+      "Explain capacity conventions",
+      "Expose imported global-to-local dependency",
+      "Check later Hartree work"
+    ],
+    "actions": [
+      "Elliptic theorem locators added",
+      "Zero-set equivalence argument added",
+      "Dependency and branch-selection discussion tightened",
+      "Large-charge paper distinguished; abstract-level priority uncertainty retained"
+    ]
+  }
+}

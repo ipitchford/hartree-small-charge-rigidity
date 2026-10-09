@@ -1,0 +1,1 @@
+Publication environment: macOS, pdfLaTeX (TeX Live), standard LaTeX packages listed in paper.tex. Checking code: Python 3 standard library. Linux CI separately records its runtime. No numerical library or network required to rebuild the document.
